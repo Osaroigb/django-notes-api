@@ -66,7 +66,7 @@ Before you begin, ensure you have installed:
 
 To configure your database settings securely, we use environment variables. You'll find a file named `.env.example` in the project root. This file contains template environment variable definitions for your project's configuration, including database connection details.
 
-6. **Copy `.env.example` to `.env`**:
+6. **Copy `.env.example` to `.env`**
 
    First, create a copy of the `.env.example` file and name it `.env`. This file will be used to set your environment variables. The command you use to copy this file depends on your operating system:
 
@@ -116,17 +116,17 @@ To configure your database settings securely, we use environment variables. You'
    python manage.py runserver
    ```
 
-   The API will be available at `http://127.0.0.1:8000/v1/api/`.
+   The API will be available at `http://127.0.0.1:8000/v1/api`.
 
 2. **Accessing the API Endpoints**
 
    Use tools like [Postman](https://www.postman.com/) or [curl](https://curl.se/) to interact with the API. Here are some example endpoints:
 
-   - Create a new note: `POST /v1/api/notes/`
-   - Retrieve all notes: `GET /v1/api/notes/`
-   - Retrieve a single note by ID: `GET /v1/api/notes/<note_id>/`
-   - Update a note: `PUT /v1/api/notes/<note_id>/`
-   - Delete a note: `DELETE /v1/api/notes/<note_id>/`
+   - Create a new note: `POST /notes/`
+   - Retrieve all notes: `GET /notes/`
+   - Retrieve a single note by ID: `GET /notes/<note_id>/`
+   - Update a note: `PUT /notes/<note_id>/`
+   - Delete a note: `DELETE /notes/<note_id>/`
 
 ## Customization
 
