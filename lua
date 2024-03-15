@@ -21,7 +21,6 @@ DJANGO-NOTES-API/
     |   |   |   |   |
     |   |   |   |   |-- __init__.py
     |   |   |   |   |-- 0001_initial.py
-    |   |   |   |   |-- 0002_auto_20240315_0615.py
     |   |   |
     |   |   |-- __init__.py
     |   |   |-- admin.py

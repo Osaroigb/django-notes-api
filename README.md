@@ -102,6 +102,7 @@ To configure your database settings securely, we use environment variables. You'
    Apply the migrations to create the database schema:
 
    ```bash
+   cd notes_project
    python manage.py makemigrations
    python manage.py migrate
    ```
